@@ -1,5 +1,6 @@
 @extends('layout')
 @section('content')
+    <h1>Student Form</h1>
 
 <form action="/student/update/{{ $id }}" method="post">
     {{@csrf_field()}}
